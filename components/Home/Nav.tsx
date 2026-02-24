@@ -82,15 +82,9 @@ export default function Nav({ isLoggedIn = false }: NavProps) {
                         프로필
                       </Link>
                       <Link
-<<<<<<< HEAD
-                        href="/settings"
-                        aria-label="설정"
-                        className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-=======
                         href="/setting"
                         className="block px-4 py-2 hover:bg-gray-50 transition-colors text-gray-700"
                         onClick={() => setShowUserMenu(false)}
->>>>>>> f60e3965961944745b83468c48f291469f351875
                       >
                         <Settings
                           className="w-5 h-5 text-gray-600"
